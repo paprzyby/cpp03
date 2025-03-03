@@ -6,7 +6,7 @@
 /*   By: paprzyby <paprzyby@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 14:02:41 by paprzyby          #+#    #+#             */
-/*   Updated: 2025/03/03 13:46:47 by paprzyby         ###   ########.fr       */
+/*   Updated: 2025/03/03 14:19:23 by paprzyby         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,9 @@
 ClapTrap::ClapTrap()
 {
 	std::cout << "Default constructor called." << std::endl;
+	this->hp = 10;
+	this->energy = 10;
+	this->ad = 0;
 }
 
 ClapTrap::ClapTrap(ClapTrap &other)
@@ -27,6 +30,9 @@ ClapTrap::ClapTrap(std::string name)
 {
 	std::cout << name << " constructor called" << std::endl;
 	this->name = name;
+	this->hp = 10;
+	this->energy = 10;
+	this->ad = 0;
 }
 
 ClapTrap& ClapTrap::operator=(ClapTrap &other)

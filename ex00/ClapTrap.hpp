@@ -6,7 +6,7 @@
 /*   By: paprzyby <paprzyby@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 14:01:45 by paprzyby          #+#    #+#             */
-/*   Updated: 2025/03/03 13:29:29 by paprzyby         ###   ########.fr       */
+/*   Updated: 2025/03/03 14:19:38 by paprzyby         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,9 @@ class	ClapTrap
 
 	private:
 		std::string	name;
-		int			hp = 10;
-		int			energy = 10;
-		int			ad = 0;
+		int			hp;
+		int			energy;
+		int			ad;
 };
 
 #endif
