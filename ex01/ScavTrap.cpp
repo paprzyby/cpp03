@@ -6,7 +6,7 @@
 /*   By: paprzyby <paprzyby@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 16:19:54 by paprzyby          #+#    #+#             */
-/*   Updated: 2025/03/03 14:21:57 by paprzyby         ###   ########.fr       */
+/*   Updated: 2025/03/03 14:27:20 by paprzyby         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,13 +56,13 @@ ScavTrap::~ScavTrap()
 void	ScavTrap::attack(const std::string& target)
 {
 	if (hp == 0)
-		std::cout << "ClapTrap " << name << " has 0 hp." << std::endl;
+		std::cout << "ScavTrap " << name << " has 0 hp." << std::endl;
 	else if (energy == 0)
-		std::cout << "ClapTrap " << name << " has 0 energy." << std::endl;
+		std::cout << "ScavTrap " << name << " has 0 energy." << std::endl;
 	else
 	{
 		energy--;
-		std::cout << "ClapTrap " << name << " attacks the target " << target << " with " << ad << " ad!" << std::endl;
+		std::cout << "ScavTrap " << name << " attacks the target " << target << " with " << ad << " ad!" << std::endl;
 	}
 }
 
