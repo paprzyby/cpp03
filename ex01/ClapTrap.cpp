@@ -6,7 +6,7 @@
 /*   By: paprzyby <paprzyby@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 14:02:41 by paprzyby          #+#    #+#             */
-/*   Updated: 2025/02/28 16:17:21 by paprzyby         ###   ########.fr       */
+/*   Updated: 2025/03/03 13:46:42 by paprzyby         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,27 +17,27 @@ ClapTrap::ClapTrap()
 	std::cout << "Default constructor called." << std::endl;
 }
 
-ClapTrap::ClapTrap(ClapTrap &copy)
+ClapTrap::ClapTrap(ClapTrap &other)
 {
 	std::cout << "Copy constructor called." << std::endl;
-	*this = copy;
+	*this = other;
 }
 
 ClapTrap::ClapTrap(std::string name)
 {
-	std::cout << "Name constructor called" << std::endl;
+	std::cout << name << " constructor called" << std::endl;
 	this->name = name;
 }
 
-ClapTrap& ClapTrap::operator=(ClapTrap &copy)
+ClapTrap& ClapTrap::operator=(ClapTrap &other)
 {
 	std::cout << "Copy assignment operator called." << std::endl;
-	if (this != &copy)
+	if (this != &other)
 	{
-		name = copy.name;
-		hp = copy.hp;
-		energy = copy.energy;
-		ad = copy.ad;
+		name = other.name;
+		hp = other.hp;
+		energy = other.energy;
+		ad = other.ad;
 	}
 	return (*this);
 }
