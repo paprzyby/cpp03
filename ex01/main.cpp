@@ -6,11 +6,11 @@
 /*   By: paprzyby <paprzyby@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 13:56:18 by paprzyby          #+#    #+#             */
-/*   Updated: 2025/02/28 15:57:50 by paprzyby         ###   ########.fr       */
+/*   Updated: 2025/03/03 13:27:36 by paprzyby         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
 
 int	main()
 {
