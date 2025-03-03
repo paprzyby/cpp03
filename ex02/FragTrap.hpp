@@ -6,7 +6,7 @@
 /*   By: paprzyby <paprzyby@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/03 14:26:36 by paprzyby          #+#    #+#             */
-/*   Updated: 2025/03/03 14:32:48 by paprzyby         ###   ########.fr       */
+/*   Updated: 2025/03/03 14:35:18 by paprzyby         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class	FragTrap : public ClapTrap
 		FragTrap &operator=(FragTrap &copy);
 		~FragTrap();
 
-		void	attack(const std::string& target);
+		void	highFivesGuys();
 };
 
 #endif

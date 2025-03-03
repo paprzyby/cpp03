@@ -6,7 +6,7 @@
 /*   By: paprzyby <paprzyby@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/03 14:26:38 by paprzyby          #+#    #+#             */
-/*   Updated: 2025/03/03 14:33:02 by paprzyby         ###   ########.fr       */
+/*   Updated: 2025/03/03 14:35:49 by paprzyby         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,15 +53,7 @@ FragTrap::~FragTrap()
 	std::cout << "FragTrap destructor called" << std::endl;
 }
 
-void	FragTrap::attack(const std::string& target)
+void	FragTrap::highFivesGuys()
 {
-	if (hp == 0)
-		std::cout << "ClapTrap " << name << " has 0 hp." << std::endl;
-	else if (energy == 0)
-		std::cout << "ClapTrap " << name << " has 0 energy." << std::endl;
-	else
-	{
-		energy--;
-		std::cout << "ClapTrap " << name << " attacks the target " << target << " with " << ad << " ad!" << std::endl;
-	}
+	std::cout << "FragTrap " << name << " requests a high five!" << std::endl;
 }

@@ -6,7 +6,7 @@
 #    By: paprzyby <paprzyby@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/30 16:15:27 by paprzyby          #+#    #+#              #
-#    Updated: 2025/03/03 10:46:39 by paprzyby         ###   ########.fr        #
+#    Updated: 2025/03/03 14:39:07 by paprzyby         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,8 @@ NAME =		claptrap
 
 SRC =		main.cpp \
 			ClapTrap.cpp \
-			ScavTrap.cpp
+			ScavTrap.cpp \
+			FragTrap.cpp
 
 OBJ_DIR =	obj
 OBJ =		$(SRC:%.cpp=$(OBJ_DIR)/%.o)
